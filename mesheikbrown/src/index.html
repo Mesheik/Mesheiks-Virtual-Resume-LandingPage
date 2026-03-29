@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesheik Brown Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--Header with navigation links-->
@@ -13,10 +14,10 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -24,17 +25,21 @@
 
     <!--Hero section with tagline-->
     <section id="hero">
-        <div class="hero-content">
-            <h1>Mesheik Brown</h1>
-            <p>Full-Stack Engineer | Frontend to Backend Solutions  | Clean, Maintainable Code</p>
-            <p>Supporting enterprise systems today while building the skills to develop them tomorrow.</p>
-            <a href="#projects" class="hero-btn">View My Projects</a>
-            <a href="#contact" class="hero-btn">Contact Me</a>
-            <img src="https://via.placeholder.com/150" alt="Mesheik Brown" class="profile-pic">
+       <div class="hero-content">
+        <div class="hero-text">
+     <h1>Mesheik Brown</h1>
+     <p>IT Support Professional | Aspiring Full Stack Engineer</p>
+    <p>Supporting enterprise systems today while building the skills to develop them tomorrow.</p>
+
+        <a href="#projects" class="hero-btn">View My Projects</a>
+        <a href="#contact" class="hero-btn">Contact Me</a>
+        <a href="mesheik-brown-resume.pdf" download class="hero-btn">Download Resume</a>
+  </div>
+            <img src="images/headshot.jpeg" alt="Mesheik Brown" class="profile-pic">
         </div>
     </section>
 
-<!--About section with professional summary-->
+    <!--About section with professional summary-->
     <section id="about">
         <h2>About Me</h2>
         <p>I am an IT support professional with experience in NOC and Help Desk environments, specializing in infrastructure monitoring, incident triage, and SLA-driven support.
@@ -43,7 +48,7 @@
         </p>
     </section>
 
-<!--Experience section-->
+    <!--Experience section-->
     <section id="experience">
         <h2>Experience</h2>
         <div class="experience-item">
@@ -73,6 +78,7 @@
         </div>
     </section>
 
+    <!--Education section-->
     <section id="education">
         <h2>Education</h2>
         <div class="education-item">
@@ -95,6 +101,7 @@
         </div>
     </section>
 
+    <!--Certifications section-->
     <section id="certifications">
         <h2>Certifications</h2>
         <div class="certification-item">
@@ -105,32 +112,61 @@
                 <li>Skills in facilitating Scrum ceremonies, managing backlogs, and fostering team collaboration.</li>
             </ul>
         </div>
+
     </section>
 
+<!--Projects section-->
     <section id="projects">
         <h2>Projects</h2>
+        <div class="projects-grid">
         <div class="project-item">
             <h3>Arcade Lab</h3>
-            <p><a href="https://github.com/Mesheik/java-loop-control-arcade-lab" target="_blank">Mesheik Repository</a></p>
+            <p><a href="https://github.com/Mesheik/java-loop-control-arcade-lab" target="_blank">GitHub Repository</a></p>
+            <p><strong>Technologies:</strong> Java</p>
             <ul>
                 <li>Console-based Java application demonstrating loop control, conditionals, and user input to simulate simple arcade-style program logic.</li>
             </ul>
+
         </div>
             <div class="project-item">
                 <h3>Virtual Bank</h3>
-                <p><a href="https://github.com/Mesheik/mesheiks-virtual-bankaccount" target="_blank">Mesheik Repository</a></p>
+                <p><a href="https://github.com/Mesheik/mesheiks-virtual-bankaccount" target="_blank">GitHub Repository</a></p>
+                <p><strong>Technologies:</strong> Java, OOP</p>
                 <ul>
                     <li>Object-oriented Java banking system implementing classes, inheritance, and account operations such as deposits, withdrawals, and balance management</li>
                 </ul>
             </div>
         </div>
+    </div>
+
+    <div class="project-item">
+  <h3>Midnight Nexus Landing Page</h3>
+
+  <p>
+    <a href="#" target="_blank">Midnight Nexus Live Demo</a> |
+    <a href="https://github.com/Mesheik/Mesheiks-Product-Landing-Page.git" target="_blank">GitHub Repository</a>
+  </p>
+
+  <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+  <ul>
+    <li>Designed and developed a responsive product landing page with a retro 80s neon theme.</li>
+    <li>Implemented structured sections including hero, features, pricing, and testimonials.</li>
+    <li>Focused on UI/UX design, layout consistency, and visual hierarchy.</li>
+    <li>Used custom styling and animations to create a modern, engaging user experience.</li>
+  </ul>
+        </div>
+
     </section>
 
+    <!--Skills section-->
     <section id="skills">
         <h2>Skills</h2>
-        <div class="skills-group">
-            <h3>Technical Skills:</h3>
-            <ul>
+        <div class="skills-grid">
+
+            <div class="skills-group">
+             <h3>Technical Skills:</h3>
+             <ul>
                 <li>Zabbix</li>
                 <li>Genetec</li>
                 <li>ServiceNow</li>
@@ -142,7 +178,8 @@
                 <li>Java</li>
                 <li>Git / GitHub</li>
                 <li>Agile methodologies</li>
-            </ul>    
+             </ul>
+            </div>    
         </div>
 
         <div class="skills-group">
@@ -156,8 +193,11 @@
                 <li>Customer support</li>
                 <li>Problem solving</li>
             </ul>
+        </div>
+
     </section>
 
+    <!--Contact section-->
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: mesheik765@gmail.com</p>
